@@ -15,15 +15,25 @@ Prequisites:
 - replace the content of <blender-github/.git/config> with <blender-github/corrected_git_config>
 
 	i.e. replace the URLS
+   
 		url = https://github.com/SBCV/blender-translations.git
+      
 		url = https://github.com/SBCV/blender-addons.git
+      
 		url = https://github.com/SBCV/blender-addons-contrib.git
+      
 		url = https://github.com/SBCV/blender-dev-tools.git
+      
 	with
+   
 		url = https://git.blender.org/blender-translations.git
+      
 		url = https://git.blender.org/blender-addons.git
+      
 		url = https://git.blender.org/blender-addons-contrib.git
+      
 		url = https://git.blender.org/blender-dev-tools.git
+      
 
 
 Development
