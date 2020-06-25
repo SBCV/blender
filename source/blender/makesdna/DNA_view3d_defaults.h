@@ -95,7 +95,7 @@
  \
     .lens = 50.0f, \
     .clip_start = 0.01f, \
-    .clip_end = 1000.0f, \
+    .clip_end = 1000000.0f, \
  \
     .bundle_size = 0.2f, \
     .bundle_drawtype = OB_PLAINAXES, \

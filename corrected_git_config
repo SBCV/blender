@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/SBCV/blender.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[submodule "release/datafiles/locale"]
+	active = true
+	url = https://git.blender.org/blender-translations.git
+[submodule "release/scripts/addons"]
+	active = true
+	url = https://git.blender.org/blender-addons.git
+[submodule "release/scripts/addons_contrib"]
+	active = true
+	url = https://git.blender.org/blender-addons-contrib.git
+[submodule "source/tools"]
+	active = true
+	url = https://git.blender.org/blender-dev-tools.git
